@@ -86,17 +86,17 @@ public class Player : MonoBehaviour {
 			switch (difficulty) {
 			case 0:
 				goalPosY = ballLocalPos.y += Random.Range(-30,30);
-				speed = Random.Range (200.0f, 250.0f);
+				speed = Random.Range (220.0f, 270.0f);
 				break;
 
 			case 1:
 				goalPosY = ballLocalPos.y += Random.Range(-20,20);
-				speed = Random.Range (250.0f, 300.0f);
+				speed = Random.Range (270.0f, 302.0f);
 				break;
 
 			case 2:
 				goalPosY = ballLocalPos.y += Random.Range(-20,20);
-				speed = Random.Range (300.0f, 350.0f);
+				speed = Random.Range (320.0f, 370.0f);
 				break;
 			}
 
